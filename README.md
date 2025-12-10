@@ -1,4 +1,4 @@
-# Portfolio-Projects
+# SPA-JavaScript-TypeScript
 
 Whoever is reading or investigating my source code, please be understandable. I am just an uncommercial junior who really wants to be a Software Developer in the future and fingers cross will start dreamed job soon ;). These three projects took me more than a year and I have started thanks to Digital Native BootCamp:
 
