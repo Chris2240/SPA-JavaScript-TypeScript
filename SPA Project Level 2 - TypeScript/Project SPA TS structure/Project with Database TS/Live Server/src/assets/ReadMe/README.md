@@ -1,6 +1,34 @@
 
 # Level 2 Development HTML, CSS, JavaScript and TypeScript in "Live Server"
 
+<br>
+
+### Installation & How to run the application:
+After cloning the application you have to provide the following commands in VSCode terminal to run it:
+
+* For installations all dependencies and libraries:
+```bash
+npm install
+```
+
+* For copies index.html, style.css and papaparse.min.js into **build** folder(which it will create itself):
+```bash
+npm run copy-assets
+```
+
+* For converting **.ts** into **.js** files and move them into **build** folder:
+```bash
+tsc
+```
+
+* Install the **Live Server** extension if VSCode does not have it yet.
+
+After those commands you are able to run it as Live Server by right clicking the mouse and choosing the "Open with Live Server".
+
+<br>
+
+### Steps how I transfere already existing JavaScript project structure into TypeScript:
+
 In this project I have been given the following task to achieve a whole Single Page Application (SPA) work as expected in TypeScript campilation:
 
 <br>
@@ -17,6 +45,9 @@ In this project I have been given the following task to achieve a whole Single P
     * npm install - creating package.json in the button of main folder,
     * npm init -y - that is update package.json for using this same dependencies if project will copied for other users,
     * npm install papaparse --save - installing papaparse library for JavaScript and creating package-lock.json,
+    * npm install --save-dev papaparse - installing papaparse library for dev dependencies,
+    * npm install --save-dev copyfiles - this is a tool which can copy files from one direction to the other one,
+    * inside the **"package.json"** adding script line code **"copy-assets"** to copy the index.html, style.css and papaparse.min.js into     **"build"** folder which will create itself as well.
 
     After installations the package.json should looks like that:
 
