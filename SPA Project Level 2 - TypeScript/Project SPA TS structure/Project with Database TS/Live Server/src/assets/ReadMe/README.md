@@ -51,7 +51,7 @@ In this project I have been given the following task to achieve a whole Single P
 
     After installations the package.json should looks like that:
 
-    <img src="./Screenshots Readme/Screenshot 2.jpg" width="700">
+    <img src="./Screenshots Readme/Screenshot 14.png" width="700">
 
 <br>
 
