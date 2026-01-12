@@ -1,50 +1,5 @@
-# Level 1 Development (JavaScript, HTML, CSS - without Database)
 
-This Project showing how to SPA (Single Page Application) is builded using HTML, CSS and JavaScript files.
-
-## Content:
-
-At the minute is only showing how does pages are looks like and has some functionalities like:
-    
-* navigating to each page
-* choosing files using "input" elements of "type="files""
-* selecting "Roles" or "Locations" using "select" elements
-* a certain message pops up when a particular button is pressed
-* initiation of saving data in console while some user input is provided in certain rows and file choosing as well. Also when the user goes to another input the value on the previous one is cleared too.
-
-
-## Addition:
-
-As an addition when we press the "Submit" button I decided to show the word "Loading" instead of "File Loader" appear and update this a few times to get a nice feature view like.
-
-* "Loading.", "Loading..", "Loading..."
-
-Once it is finished loading, get updated again on "Files are loaded" for 1,5 second and finally assigned back into default value: "File Loader".
-
-To achieve that I have been using the "setTimeout()" API.
-
-For me it looks <b>cool</b> with this features ;).
-
-
-## Other pages links:
-
-Please look on pictures attached which will navigate to other pages were for some the reason are not bounded all together:
-
-<br>
-
-![Add Edit Job Employer](<Screenshot 2024-06-07 161915.jpg>)
-
-![Employer Profile](<Screenshot 2024-06-13 181621.jpg>)
-
-![Main View Employer](<Screenshot 2024-06-10 142903.jpg>)
-
-![Applicant Profile](<Screenshot 2024-06-07 161936.jpg>)
-
-<br>
-<br>
-<br>
-
-# Level 1 Development (JavaScript, HTML, CSS - with Database) - the 1st and last upgrade:
+# Level 1 Development (JavaScript, HTML, CSS):
 
 In this project I have been given the following task to achieve a whole Single Page Application (SPA) work as expected:
 
