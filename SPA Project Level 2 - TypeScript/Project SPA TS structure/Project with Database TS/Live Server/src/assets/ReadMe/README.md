@@ -11,6 +11,11 @@ After cloning the application you have to provide the following commands in VSCo
 npm install
 ```
 
+* To install Typescript globally:
+```bash
+npm install -g typescript
+```
+
 * For copies index.html, style.css and papaparse.min.js into **build** folder(which it will create itself):
 ```bash
 npm run copy-assets
@@ -23,7 +28,7 @@ tsc
 
 * Install the **Live Server** extension if VSCode does not have it yet.
 
-After those commands you are able to run it as Live Server by right clicking the mouse and choosing the "Open with Live Server".
+After those commands you are able to run it as Live Server by right clicking the mouse and choosing the "Open with Live Server"(localhost:5500).
 
 <br>
 
