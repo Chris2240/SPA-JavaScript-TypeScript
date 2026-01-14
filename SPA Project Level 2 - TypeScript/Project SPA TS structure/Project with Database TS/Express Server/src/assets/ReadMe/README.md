@@ -1,12 +1,42 @@
 # Level 2 Development HTML, CSS, JavaScript and TypeScript
 
+<br>
+
+## Installation & How to run the application:
+After cloning the application you have to provide the following commands in VSCode terminal to run it:
+
+* To install Typescript globally:
+```bash
+npm install -g typescript
+```
+
+* To install all dependencies and libraries:
+```bash
+npm install
+```
+
+* To converting all **.ts** into **.js** files and copy the papaparse.min.js into **build** folder:
+```bash
+npm run build
+```
+
+* Finally, runnig the application (localhost:3000):
+```bash
+npm start
+```
+After those steps you are able to run the application at a new tab of any browser typing **localhost:3000**.
+
+<br>
+
+## Steps how I transfere already existing JavaScript project structure into TypeScript:
+
 In this project I have been given the following task to achieve a whole Single Page Application (SPA) work as expected in TypeScript campilation:
 
 <br>
 
 1) I had to copy and paste the original JavaScript project into this “Express Server” folder.
 
-    Removed all “node-modules”, package.json and package-lock.json files using: “rm -rf src/package.json src/package-lock.json src/node_modules”. Also I did remove ”.vscode/launcher.json”
+    Removed all “node-modules”, package.json and package-lock.json files using: “rm -rf src/package.json src/package-lock.json                src/node_modules”. Also I did remove ”.vscode/launcher.json”
     Created tsconfig.json file using “npx tsc --init” and configured as follow:
 
     ![alt text](<Screenshots Readme/Screenshot 1.jpg>)
@@ -70,7 +100,7 @@ To cancel using expess server simply press "ctr + c".
 
 <br>
 
-## Errors appeared and how I handeled them (them nie with it bo jest wiele):
+## Errors appeared and how I handled them:
 
 * Changed at package.json: "main": "index.js" into "main": "build/app.js" - The error occurs in web browser (http://localhost:3000) because Node.js is trying to run index.js, but my package.json does not specify it as the main file.
 
