@@ -1,6 +1,24 @@
 
 # Level 1 Development (JavaScript, HTML, CSS):
 
+<br>
+
+## Installation & How to run the application:
+After cloning the application you have to provide the following commands in VSCode terminal to run it:
+
+* For installation of all dependencies and libraries:
+```bash
+npm install
+```
+
+* Install the **Live Server** extension if VSCode does not have it yet.
+
+After that command you are able to run the application as Live Server by right clicking the mouse on index.html and choosing the "Open with Live Server"(localhost:5500).
+
+<br>
+
+## Single Page Application (SPA): Architecture and Implementation Overview:
+
 In this project I have been given the following task to achieve a whole Single Page Application (SPA) work as expected:
 
 <br>
